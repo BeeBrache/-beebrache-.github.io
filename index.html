@@ -13,9 +13,6 @@
             background-color: #f4f0f8; /* Neutral soft background color */
             color: #495057;
             line-height: 1.6;
-            background-image: radial-gradient(circle, #ffffff 1px, transparent 1px), radial-gradient(circle, #ffffff 1px, transparent 1px);
-            background-position: 0 0, 25px 25px;
-            background-size: 50px 50px;
         }
         header {
             background-color: #eac4f3;
@@ -31,10 +28,10 @@
         }
         header img {
             border-radius: 50%;
-            width: 180px; /* Increased profile picture size */
-            height: 180px; /* Increased profile picture size */
+            width: 200px; /* Made the profile picture larger */
+            height: 200px; /* Made the profile picture larger */
             position: absolute;
-            top: 10px; /* Adjusted position */
+            top: 20px;
             right: 20px;
             border: 5px solid #4a3f58;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -77,11 +74,6 @@
             padding: 2rem 4rem;
             max-width: 800px;
             margin: auto;
-            background-color: #ffffff;
-            margin-bottom: 2rem;
-        }
-        section:first-child {
-            margin-top: 0; /* Remove top margin for the first section */
         }
         h2 {
             font-family: 'Glacial Indifference', sans-serif;
@@ -121,18 +113,6 @@
             pointer-events: none;
             z-index: -1;
         }
-        /* Nature motifs */
-        .nature-motif {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png'); /* Replace with your desired nature motif */
-            opacity: 0.2; /* Adjust opacity as desired */
-            pointer-events: none;
-            z-index: -1;
-        }
     </style>
 </head>
 <body>
@@ -143,8 +123,6 @@
     </header>
     <nav>
         <a href="#about">About Me</a>
-        <a href="#recipes">Recipes</a>
-        <a href="#deardiary">Dear Diary</a> <!-- Changed Blog to Dear Diary -->
         <a href="#contact">Contact</a> <!-- Moved Contact to before Resume -->
         <a href="#resume">Resume</a>
     </nav>
@@ -154,14 +132,6 @@
         <p>In my personal life, I find joy in cooking, fine dining, and travelling. I cherish beach walks that end with invigorating cold plunges in the ocean. My greatest delight comes from spending time with my two sons, aged 4 and 13. Together, we explore creative outlets like digital graphic design, art, and literature.</p>
         <p>Living with bipolar disorder has given me a deep understanding of mental health, and I am passionate about sharing my experiences to raise awareness and support others. This journey has strengthened my commitment to mental health advocacy and fostering inclusive environments for all.</p>
     </section>
-    <section id="recipes" class="recipes">
-        <h2>Recipes</h2>
-        <p>Coming soon!</p>
-    </section>
-    <section id="deardiary" class="blog"> <!-- Changed ID to "deardiary" and class to "blog" -->
-        <h2>Dear Diary</h2>
-        <p>Coming soon!</p>
-    </section>
     <section id="contact" class="contact-info">
         <h2>Contact</h2>
         <p>Email: <a href="mailto:beebrache@gmail.com">beebrache@gmail.com</a></p>
@@ -170,7 +140,7 @@
     </section>
     <section id="resume" class="resume">
         <h2>Resume</h2>
-        <iframe src="https://beeee.tiiny.site" width="100%" height="600px"></iframe>
+        <iframe src="https://beeresume.tiiny.site" width="100%" height="600px"></iframe>
     </section>
     <footer>
         <p>&copy; Bianca Brache</p>
